@@ -2,20 +2,27 @@
   "name": "ledger-accounting",
   "description": "Double entry accounting",
   "version": "0.1.2",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/monstercat/ledger-accounting.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/monstercat/ledger-accounting.git"
   },
   "main": "index.js",
   "dependencies": {
+    "@types/pad": "^2.1.0",
     "bignumber.js": "1.3.0",
     "moment": "2.6.0",
     "pad": "0.0.4",
     "underscore": "1.6.0"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "expect.js": "*",
     "mocha": "*",
-    "expect.js": "*"
+    "typescript": "^3.9.5"
   },
   "scripts": {
     "test": "mocha --reporter spec --timeout 10000 --harmony"
