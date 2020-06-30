@@ -6,15 +6,15 @@
     "type": "git",
     "url": "http://github.com/monstercat/ledger-accounting.git"
   },
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "assert": "^2.0.0",
     "moment": "^2.27.0"
   },
   "devDependencies": {
     "@types/assert": "^1.5.1",
-    "@typescript-eslint/eslint-plugin": "^3.4.0",
-    "@typescript-eslint/parser": "^3.4.0",
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
     "eslint": "^7.3.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",

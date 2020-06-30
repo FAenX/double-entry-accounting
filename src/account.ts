@@ -3,9 +3,9 @@ import {Metadata} from './interfaces'
 class Account {
   accountName: string;
 
-  metadata: any;
+  metadata?: Metadata;
 
-  constructor(name:string, metadata?:any) {
+  constructor(name:string, metadata?:Metadata) {
     this.accountName = name;
     this.metadata = metadata;
   }
