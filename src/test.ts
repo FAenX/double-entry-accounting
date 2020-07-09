@@ -1,13 +1,9 @@
-import Account from './account';
-import Posting from './posting';
+import Posting from './entry';
 import Transaction from './transaction';
+import moment from 'moment';
 
-const account1 = new Account('emmanuel');
-const account2 = new Account('emmanuel');
-// const posting = new Posting(account1, 20);
-const transaction = new Transaction(account1.accountName, 'payment reason');
+const transaction = new Transaction('id', moment.utc().valueOf(), 0, {});
+const t = transaction.create(20);
 
-const t = transaction.transfer(account1, account2, 20);
-
-console.log(account1);
+console.log('id');
 console.log(t);
