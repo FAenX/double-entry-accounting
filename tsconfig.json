@@ -18,13 +18,8 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "target": "es2018",
-<<<<<<< HEAD
-    "sourceMap": true
-    // "declaration": true
-=======
     "sourceMap": true,
     "declaration": true
->>>>>>> master
   },
   "include": ["src"],
   "exclude": [
